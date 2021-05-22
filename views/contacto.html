@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>SonsoArt</title>
+  </head>
+  <body>
+    <!-- lo siguiente corresponde a la barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-negro">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../images/ImagotipoSonsoArt.png" alt="SonsoArt" width="30">
+        SonsoArt
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">¿Quienes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Visión y Misión
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="../views/vision.html">Visión</a>
+              <a class="dropdown-item" href="../views/mision.html">Misión</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>    
+    </nav>
+    <!--Banner principal -->
+    <h1 class="bg-dark p-5 text-center text-white font-weight-bold">Contacto</h1>
+    <div class="container">
+      <form>
+        <h3>Formulario de contacto</h3>
+        <p>Por favor complete el siguiente formulario con su consulta</p>
+        <div class="form-group row pt-5">
+          <label for="inputName" class="col-sm-2 col-form-label">Nombre</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+          </div>
+          <label for="inputLastName" class="col-sm-2 col-form-label">Apellido</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Apellido">
+          </div>
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="exampleFormControlTextarea1" class="col-sm-2 form-label">Consulta</label>
+          <div class="col-sm-10">
+            <textarea class="form-control" id="exampleFormControlTextarea1" ></textarea>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-2">No soy un robot!!</div>
+          <div class="col-sm-10">
+            <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Check me out
+          </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary" onclick="alert('Recibimos correctamente tu solicitud!!');">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- Comienzo de Footer -->
+    <div class="bg-negro p-5 text-center text-white">
+      <p>Copyright © 2021 www.sonsoart.com</p>
+      <p>Powered by www.sonsoart.com</p>
+    </div>
+  </body>
+  <script src="../js/jquery-3.5.1.slim.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</html>
